@@ -1,0 +1,50 @@
+main {
+    padding: 40px; /* Espaço entre o conteúdo e a borda */
+    display: flex; /* Para mexer na posição da imagem e do texto */
+    align-items: flex-start; /* Alinha os itens mas sem distorcer a imagem */
+    gap: 50px; /* Espaço entre os conteúdos da flexbox (texto e imagem) */
+}
+
+.texto-container {
+    flex: 3; /* o 2 indica que de 3 partes da tela, o texto deve ocupar 2, ou seja, mais do que a imagem */
+    text-align: left; /* Alinha o texto na esquerda */
+}
+
+p {
+    font-size: 12px; /* Tamanho da fonte dos itens dentro das seções */
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 40px; /* Tamanho da fonte do nome principal */
+    padding-bottom: 40px;
+}
+
+/* Estilo do título das seções */
+h3 {
+
+    border-bottom: 2px solid #00ff0d; /* Linha embaixo do título */
+    padding-bottom: 5px; /* Espaço entre o texto e a borda debaixo */
+    margin-top: 10px; /* Tamanho da margem do topo */
+    text-transform: uppercase; /* Deixa o texto todo em maiúscilo */
+    font-size: 30px; /* Tamanho da fonte */
+}
+
+/* Estilo do conteúdo das seções */
+h4 {
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 20px;
+}
+
+.lista-certificados {
+    list-style-type: disc; /* Estilo da bolinha do lado de cada item */
+    list-style-position: inside; /* Deixa as bolinhas juntas do texto */
+    padding-left: 10px; /* Espaço entre o conteúdo e a borda */
+}
+
+.lista-certificados li {
+    margin-bottom: 10px; /* Margem debaixo */
+    font-size: 20px; /* Tamanho da fonte */
+}
+

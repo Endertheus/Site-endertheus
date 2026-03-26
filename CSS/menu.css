@@ -1,0 +1,41 @@
+body {
+    font-family: Arial; /* Fonte do site */
+    margin: 0;
+    padding: 0; 
+}
+
+nav {
+    background-color: #5729ac; /* Cor do menu de navegação */
+    padding: 20px; /* Espaço entre as palavras e a borda */
+    /*box-shadow: 1px 1px 10px; /* Deixa uma sombra no menu de cima */
+    border-radius: 0 0 20px 20px; /* Arredonda as bordas inferiores esquerda e direita */
+}
+
+nav ul {
+    list-style: none; /* Tira as bolinhas que ficam do lado dos itens da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Deixa os itens da lista na horizontal */
+    justify-content: center; /* Centraliza os itens */
+}
+
+nav li {
+    margin: 10px 50px; /* Margens superior/inferior e esquerda/direita do menu */
+}
+
+nav a {
+    color: white; /* Cor da fonte do menu */
+    text-decoration: none; /* Tira a linha embaixo dos itens do menu */
+    font-weight: bold; /* Deixa em negrito */
+    text-transform: uppercase; /* Deixa os itens em letra maiúscula */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+nav a:hover {
+    color: #00ff0d; /* Cor de destaque ao passar o mouse */
+}
+
+nav a.active { /* Essa clase serve para deixar uma linha embaixo da opção do menu selecionada */
+    border-bottom: 3px solid #00ff0d; /* Cor da borda debaixo */
+    padding-bottom: 5px; /* Espaço entre o texto e a linha debaixo*/
+}

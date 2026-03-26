@@ -1,0 +1,100 @@
+/* Estilo do container */ 
+.contato-container {
+    display: flex;  /* Flex para organizar melhor os elementos do container */
+    max-width: 1000px; /* Largura máxima */
+    margin: 50px auto; /* Margem para deixar o container mais centralizado */
+    padding: 20px; /* Espaço entre a borda e os elemtnos internos */
+    background-color: #ffffff; /* Cor de fundo */
+    border-radius: 15px; /* Arredondando o container */
+    box-shadow: 10px 10px 30px; /* Sombra no fundo */
+    align-items: stretch; /* Para que os itens tenham altura e largura iguais */
+}
+
+/* Estilo das duas metades do container */
+.coluna-esquerda, .coluna-direita {
+    flex: 1; /* Flex 1 para cada uma ocupar o metade do espaço disponível */
+    padding: 20px 40px;
+}
+
+/* Estilo da linha do meio que divide as duas metades do container */
+.divisor {
+    width: 2px; /* Largura */
+    background-color: #00ff0d;
+}
+
+/* Títulos das duas partes "Mande uma mensagem" e "Minhas redes" */
+h1 {
+    color: #5729ac; /* Cor da fonte */
+    margin-bottom: 25px; /* Margem debaixo*/
+    font-size: 25px; /* Tamanho da fonte */
+}
+
+/* Estilo do Formulário */
+.campo { /* Container */
+    margin-bottom: 15px; /* Margem dos campos */
+    text-align: left; /* Alinhando o texto à esqurda */
+}
+
+.campo label { /* Texto */
+    display: block; /* Ocupa a largura total do container */
+    font-weight: bold; /* Negrito */
+    margin-bottom: 5px; /* Margem debaixo */
+    color: #000000; /* Cor da fonte dos títulos */
+}
+
+.campo input, .campo textarea { /* input são as caixas de input de linha única "Nome" e "E-mail" enquanto textarea é da caixa "Mensagem" */
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding: 10px; /* Espaço entre texto e a borda */
+    border: 1px solid #ddd; /* Borda das caixas de input */
+    border-radius: 8px; /* Arredondando as bordas */
+    box-sizing: border-box; /* Garante que o padding não quebre a largura */
+}
+
+/* Botão */
+button {
+    background-color: #5729ac; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Para retirar a borda do botão */
+    padding: 15px; /* Espaço entre o texto e a borda, seve para o botão ficar maior */
+    border-radius: 8px; /* Arredondar o botão */
+    font-weight: bold; /* Deixar a fonte em negrito */
+    cursor: pointer; /* Para o cursor mudar para um ponteiro ao passaro mouse por cima */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+/* Ao passar o mouse por cima do botão */
+button:hover {
+    background-color: #00ff0d; /* Cor de fundo */
+    color:#5729ac /* Cor do texto */
+}
+
+/* Estilo da lista de redes sociais*/
+.redes-sociais {
+    padding: 0; /* Para deixar os itens mais à esquerda */
+}
+
+.redes-sociais li {
+    display: flex; /* Coloca ícone e texto lado a lado */
+    align-items: center; /* Centraliza o texto  */
+    margin-bottom: 25px; /* Espaço entre um item e outro */
+    background-color: #f1f1f1; /* Cor de fundo dos itens */
+    padding: 15px; /* Espaço entre o texto de cada item e sua borda */
+}
+
+/* Estilo dos ícones das redes */
+.icone-rede {
+    font-size: 35px; /* Tamanho do ícone */
+    color: #5729ac; /* Cor do ícone */
+    margin-right: 15px; /* Espaço entre ícone e texto */
+}
+
+/* Estilo dos links das redes */
+.info-rede a {
+    text-decoration: none; /* Tirar a linha debaixo */
+    color: #000000; /* Cor da fonte */
+}
+
+/* Ao passar o mouse por cima do link das redes */
+.info-rede a:hover {
+    color:#00ff0d /* Cor da fonte */
+}

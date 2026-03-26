@@ -1,0 +1,19 @@
+main {
+    padding: 20px; /* Espaço entre o conteúdo e a borda */
+    text-align: center; /* Alinhando o texto no centro da tla */
+}
+
+main img {
+    max-width: 400px; /*tamanho máximo da imagem*/
+}
+
+p {
+    font-weight: bold; /* Negrito */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+main ul {
+    list-style: none; /* Tira as bolinhas que ficam do lado dos itens da lista */
+    font-size: 18px; /* Tamanho da fonte */
+    padding: 0; /* para deixar centralizado */
+}
