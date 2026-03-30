@@ -51,7 +51,7 @@ nav a.active { /* Essa clase serve para deixar uma linha embaixo da opção do m
     }
 
     nav li {
-        margin: 10px 5px; /* Remove a margem lateral de 50px que quebrava o layout */
+        margin: 10px 0; /* Remove a margem lateral de 50px que quebrava o layout */
     }
 
     nav a {
