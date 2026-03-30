@@ -39,3 +39,22 @@ nav a.active { /* Essa clase serve para deixar uma linha embaixo da opção do m
     border-bottom: 3px solid #00ff0d; /* Cor da borda debaixo */
     padding-bottom: 5px; /* Espaço entre o texto e a linha debaixo*/
 }
+
+@media (max-width: 768px) {
+    nav {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column; /* Empilha os itens um embaixo do outro */
+        align-items: center;    /* Centraliza os nomes */
+    }
+
+    nav li {
+        margin: 10px 0; /* Remove a margem lateral de 50px que quebrava o layout */
+    }
+
+    nav a {
+        font-size: 1rem; /* Diminui um pouco a letra para caber melhor */
+    }
+}
