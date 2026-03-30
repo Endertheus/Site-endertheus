@@ -26,14 +26,13 @@ h3 {
     border-bottom: 2px solid #00ff0d; /* Linha embaixo do título */
     padding-bottom: 5px; /* Espaço entre o texto e a borda debaixo */
     margin-top: 10px; /* Tamanho da margem do topo */
+    margin-bottom: 10px; /* Tamanho da margem do topo */
     text-transform: uppercase; /* Deixa o texto todo em maiúscilo */
     font-size: 30px; /* Tamanho da fonte */
 }
 
-/* Estilo do conteúdo das seções */
-h4 {
-    margin-bottom: 5px;
-    color: #333;
+/* Tamanho dos links */
+a {
     font-size: 20px;
 }
 
@@ -47,4 +46,3 @@ h4 {
     margin-bottom: 10px; /* Margem debaixo */
     font-size: 20px; /* Tamanho da fonte */
 }
-
