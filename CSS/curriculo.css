@@ -61,7 +61,45 @@ h4 {
 }
 
 @media (max-width: 768px) {
+    
+    main {
+        flex-direction: column-reverse; /* Coloca a foto em cima e o texto embaixo */
+        padding: 20px;                 
+        gap: 20px; /* Diminui o espaço entre foto e texto */
+        align-items: center;
+    }
+
+    .texto-container {
+        flex: none; /* Cancela a divisão de 2/3 no mobile */
+        width: 100%; /* Faz o texto ocupar a largura toda */
+        text-align: center;
+    }
+
+    .foto-container {
+        flex: none; /* Cancela a divisão de 1/3 */
+        margin-top: 10px;
+        width: 100%;
+    }
+
     main img {
-        max-width: 150px;
+        max-width: 200px; /* Diminui a foto no celular */
+    }
+
+    /* Ajuste das fontes */
+    h1 {
+        font-size: 28px; 
+    }
+
+    h3 {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    h4, p, .lista-certificados li {
+        font-size: 16px; /* Texto corrido em tamanho padrão de leitura mobile */
+    }
+
+    .lista-certificados {
+        text-align: left; /* Deixa a lista alinhada à esquerda mesmo com título centralizado */
     }
 }
