@@ -98,3 +98,42 @@ button:hover {
 .info-rede a:hover {
     color:#00ff0d /* Cor da fonte */
 }
+
+@media (max-width: 768px) { /* Ajuste para mobile */
+
+    /* Container de contato */
+    .contato-container {
+        flex-direction: column; /* Agora a direção é vertical, ao invés de horizontal, com formulário em cima e redes embaixo */
+        margin: 15px;
+        padding: 10px;
+    }
+
+    /* Ajuste das colunas */
+    .coluna-esquerda, .coluna-direita {
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box; /* Para ajustar o tamanho da caixa */
+    }
+
+    /* Ajuste do divisor, que agora fica na horizontal */
+    .divisor {
+        width: 100%;
+        height: 2px;
+        margin: 10px 0;
+    }
+
+    /* Ajuste de fonte e dos botões */
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    button {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .icone-rede {
+        font-size: 28px;
+    }
+}
