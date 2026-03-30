@@ -62,6 +62,6 @@ h4 {
 
 @media (max-width: 768px) {
     main img {
-        max-width: 50px;
+        max-width: 150px;
     }
 }
