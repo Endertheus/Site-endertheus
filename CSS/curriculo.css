@@ -60,3 +60,8 @@ h4 {
     font-size: 20px; /* Tamanho da fonte */
 }
 
+@media (max-width: 768px) {
+    main img {
+        max-width: 50px;
+    }
+}
